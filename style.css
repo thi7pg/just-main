@@ -262,6 +262,12 @@ section {
         text-align: center;
     }
     
+    .nav-links a {
+        display: block;
+        padding: 12px 20px;
+        min-height: 44px;
+    }
+    
     .hero-title {
         font-size: 2rem;
     }

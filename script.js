@@ -34,7 +34,6 @@ if (contactForm) {
 }
 
 // Add scroll effect to navbar
-let lastScroll = 0;
 const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
@@ -45,8 +44,6 @@ window.addEventListener('scroll', () => {
     } else {
         navbar.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
     }
-    
-    lastScroll = currentScroll;
 });
 
 // Add animation on scroll for elements
